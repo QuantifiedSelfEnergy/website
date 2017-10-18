@@ -1,5 +1,5 @@
 body{
-	background-color:#F5F5F5;
+	background-color:#fff;
 }
 #logo,
 #maintext,
@@ -10,9 +10,12 @@ body{
   margin: 2%; 
 }
 #maintext {
-  float: left;
-  width: 80%;
-  font-family: 'PT Sans Narrow', sans-serif;  
+	margin-left:auto;
+	margin-right:auto;
+    width: 70%;
+    font-family: 'PT Sans Narrow', sans-serif; 
+    background-color:#FaFaFa;
+	padding:25px;
 }
 #projecttext {
   float: left;
@@ -44,8 +47,9 @@ body{
 	width: 100%;
 }
 #footer {
-  float: left;
-  width: 80%;   
+  margin-left:auto;
+  margin-right:auto;
+  width: 70%;   
 }
 .project a {
 	font-weight: bold;
@@ -53,7 +57,7 @@ body{
 	text-decoration:none;	
 }
 #maintext a, .footis a {
-	color:#4D6D1B;
+	color:#feafea;
 	text-decoration:none;
 }
 #maintext a:hover, .footis a:hover, .project a:hover {
